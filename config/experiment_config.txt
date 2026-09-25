@@ -1,0 +1,33 @@
+DCT-SAFE reproducibility configuration
+=====================================
+
+Synthetic cyber twin
+- Features: packet_rate, mean_packet_size, flow_duration, connection_rate,
+  failed_connections, byte_rate, inter_arrival_mean, unique_destinations
+- Train stream: 1500 benign + 1500 DoS
+- Test stream: 5000 flows
+- Attack start: flow 2000
+- Window: 250 flows
+- Scenarios: static, gradual, abrupt, oscillating, stealth, hybrid
+- Seeds: 42, 123, 2024, 3407, 7777
+- Feedback contamination: 0%, 40%
+- Feedback delay: 1, 5 windows
+- Persistence: 2 consecutive drift-positive windows
+- Cooldown: 2 windows
+- Primary learner: standardized Logistic Regression
+
+CIC-IDS2017 external protocol
+- Initial training: Monday + Tuesday
+- Future stream: remaining CIC-IDS2017 files in temporal order
+- Window: 250 flows
+- Seeds: 42, 123, 2024, 3407, 7777
+- Contamination: 0%, 40%
+- Delay: 1, 5 windows
+- Family-level logging: static/adaptive F1 and recovery fields
+
+Important
+- The fresh CIC family-recovery results are not claimed to be an exact reproduction
+  of the historical aggregate CIC pipeline.
+- Incomplete matched Random Forest runs are not used for manuscript claims.
+- The CIC family analysis is interpreted cautiously because future attack families
+  may be unseen in the initial training period.

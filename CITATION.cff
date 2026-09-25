@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or experimental package, please cite it as follows."
+title: "DCT-SAFE: A Reproducible Digital Cyber Twin for Safe Adaptive Intrusion Detection Under Concept Drift and Unreliable Feedback"
+type: software
+authors:
+  - family-names: Singh
+    given-names: "Upendra Kumar"
+    affiliation: "Sri Ram Murti Smarak College of Engineering & Technology, Bareilly, Uttar Pradesh, India"
+    orcid: "REPLACE_WITH_ORCID"
+version: "1.0.0"
+date-released: "2026-09-25"
+repository-code: "REPLACE_WITH_GITHUB_URL"
+license: "MIT"
+keywords:
+  - intrusion detection
+  - concept drift
+  - digital twin
+  - continual learning
+  - delayed feedback
+  - cybersecurity
+  - CIC-IDS2017
