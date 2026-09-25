@@ -1,0 +1,26 @@
+{
+  "title": "DCT-SAFE: A Reproducible Digital Cyber Twin for Safe Adaptive Intrusion Detection Under Concept Drift and Unreliable Feedback",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "description": "Reproducibility package for the DCT-SAFE study. The repository contains completed synthetic Digital Cyber Twin experimental outputs, CIC-IDS2017 family-level external validation results, statistical analyses, publication figures, experimental configuration, and the associated manuscript. The study evaluates adaptive intrusion detection under controlled concept drift, delayed feedback, contaminated feedback, persistence verification, and cooldown control.",
+  "creators": [
+    {
+      "name": "Singh, Upendra Kumar"
+    }
+  ],
+  "keywords": [
+    "Digital Cyber Twin",
+    "Intrusion Detection System",
+    "Concept Drift",
+    "Adaptive Intrusion Detection",
+    "Delayed Feedback",
+    "Unreliable Feedback",
+    "Cybersecurity",
+    "CIC-IDS2017",
+    "Reproducible Research"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "notes": "Raw CIC-IDS2017 data are not redistributed. Users should obtain the dataset from the Canadian Institute for Cybersecurity and comply with its applicable terms. The synthetic cyber twin is a controlled simulation and is not claimed to reproduce a specific operational network."
+}
